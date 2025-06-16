@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <EditText
+        android:id="@+id/editTextProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Produto" />
+
+    <EditText
+        android:id="@+id/editTextProductDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descrição" />
+
+    <EditText
+        android:id="@+id/editTextProductPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço (ex: 29.99)"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextProductStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Quantidade em Estoque"
+        android:inputType="number" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_manager_profile"
+        android:title="Atualizar Dados"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_manager_logout"
+        android:title="Sair"
+        app:showAsAction="never" />
+</menu>

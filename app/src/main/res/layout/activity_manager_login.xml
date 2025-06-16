@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="Acesso do Gerente"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextManagerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Email do Gerente"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextManagerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Senha do Gerente"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonManagerLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar como Gerente" />
+</LinearLayout>

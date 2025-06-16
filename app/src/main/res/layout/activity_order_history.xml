@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.OrderHistoryActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ListView
+        android:id="@+id/listViewOrderHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar" />
+
+    <TextView
+        android:id="@+id/textViewNoOrders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Você ainda não fez nenhum pedido."
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:textSize="18sp"/>
+
+</RelativeLayout>
